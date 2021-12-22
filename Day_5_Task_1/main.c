@@ -3,8 +3,10 @@
 
 int main()
 {
-    char a;
-    a='N';
-    printf("%c",a);
+    unsigned char a,b,c;
+    a='A';
+    b='A';
+    c=a+b;
+    printf("%c",c);
     return 0;
 }
