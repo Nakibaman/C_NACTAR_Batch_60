@@ -3,7 +3,7 @@
 
 int main()
 {
-    long int a;
+    int a;
     char c;
     float b;
     double f;
