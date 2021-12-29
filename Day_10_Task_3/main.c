@@ -6,8 +6,9 @@ int main()
     int mark;
     printf("Enter a mark");
     scanf("%d",&mark);
-
-    if(mark>=80)
+    if(mark>100||mark<0)
+        printf("Invalid Mark");
+    else if(mark>=80)
         printf("The grade letter is A+");
     else if(mark>=75)
         printf("The grade letter is A");
