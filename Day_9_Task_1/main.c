@@ -5,7 +5,6 @@ int main()
 {
     int faltu;
     faltu=10;
-
     if(faltu>20)
         printf("Greater than 20");
     else

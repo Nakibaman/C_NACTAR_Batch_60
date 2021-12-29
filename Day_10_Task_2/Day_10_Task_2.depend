@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1640789417 source:c:\users\kheya\documents\nactar\training\online\c batch 60\c_nactar_batch_60\day_10_task_2\main.c
+	<stdio.h>
+	<stdlib.h>
+

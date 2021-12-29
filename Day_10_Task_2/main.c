@@ -27,6 +27,8 @@ int main()
         printf("The character is vowel");
     else if(kichu=='U')
         printf("The character is vowel");
+    else if(kichu>='0'&&kichu<='9')
+        printf("Not a letter");
     else
         printf("The character is consonent");
     return 0;
