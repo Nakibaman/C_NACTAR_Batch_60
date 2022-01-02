@@ -4,11 +4,13 @@
 int main()
 {
     int i;
-    for(i=1;i<=100;i++)
+    i=1;
+    do
     {
-        if(i%2==0)
+        if(i%2==1)
             printf("%d \n",i);
-    }
+        i++;
+    }while(i<=0);
 
     return 0;
 }
