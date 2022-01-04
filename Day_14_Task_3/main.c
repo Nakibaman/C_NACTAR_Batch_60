@@ -3,12 +3,9 @@
 
 int main()
 {
-    int roll[5];
-
-    roll[0]=110131;
-    roll[1]=110139;
-    roll[2]=110152;
-    roll[3]=110109;
-    roll[4]=110115;
+    int roll[5]={110131,110139,110152,110109,110115};
+    int i;
+    for(i=0;i<=4;i++)
+        printf("%d\n",roll[i]);
     return 0;
 }
