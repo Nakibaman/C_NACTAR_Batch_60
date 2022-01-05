@@ -6,10 +6,13 @@ int main()
     int a[5]={1,2,3,4,5};
     char input;
     int i;
-    printf("Enter E to show Even numbers\n ");
+    while(1)
+    {
+    printf("\nEnter E to show Even numbers\n");
     printf("Enter O to show Odd numbers");
+    printf("\nType your choice :");
     scanf("%c",&input);
-
+    scanf("%c");
     if(input=='E')
     {
         for(i=0;i<=4;i++)
@@ -31,6 +34,6 @@ int main()
         }
 
     }
-
+    }
     return 0;
 }
