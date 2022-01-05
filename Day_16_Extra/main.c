@@ -9,7 +9,8 @@ int main()
     while(1)
     {
     printf("\nEnter E to show Even numbers\n");
-    printf("Enter O to show Odd numbers");
+    printf("Enter O to show Odd numbers\n");
+    printf("Enter Q to close this application\n");
     printf("\nType your choice :");
     scanf("%c",&input);
     scanf("%c");
@@ -33,6 +34,14 @@ int main()
             }
         }
 
+    }
+    else if(input=='Q')
+    {
+        break;
+    }
+    else
+    {
+        printf("\nInvalid Input!!!!!!!!");
     }
     }
     return 0;
